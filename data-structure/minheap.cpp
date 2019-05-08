@@ -3,10 +3,21 @@
 //
 
 #include "minheap.h"
-minheap::minheap(int size) {
-    size=0;
-    maxSize=size;
-    s = new int [size];
+#include <fstream>
+void minheap::build(std::string file_name) {
+   std::ifstream input;
+   input.open(file_name);
+   std::string line;
+   int cnt=0;
+   while(getline(input,line)){
+       if (cnt==0){
+           size=stoi(line);
+           cnt++;
+       }else{
+
+       }
+   }
+input.close();
 
 }
 void minheap::insert(int key) {
@@ -24,4 +35,10 @@ void minheap::insert(int key) {
 
 void minheap::deleteMin() {
 
+}
+int minheap::getSize() {
+    return size;
+}
+int minheap::find_min() {
+    return s[0];
 }

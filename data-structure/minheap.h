@@ -4,21 +4,20 @@
 
 #ifndef DATA_STRUCTURE_MINHEAP_H
 #define DATA_STRUCTURE_MINHEAP_H
-
+#include <string>
 class minheap {
 public:
-    minheap(int size);
-    static int min(){ return s[0];};
+    void build(std::string file_name);
+    static int find_min();
     static void insert(int key);
     static void deleteMin();
     static int parent(int k){return (k-1)/2;};
-   //static int left(int k){return (2*k+1);};
-    //static int right(int k){return (2*k+2);};
-    static int getSize(){return size;};
+    static int getSize();
 private:
      static int size;
      static int maxSize;
      static int *s;
+
 
 };
 

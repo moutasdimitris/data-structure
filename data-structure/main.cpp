@@ -14,13 +14,12 @@ string removeSpaces(string str)
     return str;
 }
 int main(int argc,char* argv[]) {
-    ofstream output;
-    output.open("output.txt");
-    string filename;
-    ifstream input;
-    input.open(argv[1]);
-    string line;
+    string filename,line;
     int number;
+    ofstream output;
+    ifstream input;
+    output.open("output.txt");
+    input.open(argv[1]);
     while(getline(input,line)){
         if (line.find("BUILD MINHEAP")==0){
            filename=line.substr(13);
@@ -50,7 +49,7 @@ int main(int argc,char* argv[]) {
         }else if (line.find("GETSIZE HASHTABLE")==0){
 
         }else if (line.find("FINDMIN MINHEAP")==0){
-            int s=minheap::min();
+            int s=minheap::find_min();
             output<<"Min for MinHeap is "<<s<<endl;
         }else if (line.find("FINDMIN MAXHEAP")==0){
 
