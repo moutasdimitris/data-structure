@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Windows/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Windows/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Windows/CLionProjects/data-structure
+CMAKE_SOURCE_DIR = /Users/root1/Documents/GitHub/data-structure/data-structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/data_structure.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/data_structure.dir/flags.make
 
 CMakeFiles/data_structure.dir/main.cpp.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structure.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/main.cpp.o -c /cygdrive/c/Users/Windows/CLionProjects/data-structure/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structure.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/main.cpp.o -c /Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp
 
 CMakeFiles/data_structure.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Windows/CLionProjects/data-structure/main.cpp > CMakeFiles/data_structure.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp > CMakeFiles/data_structure.dir/main.cpp.i
 
 CMakeFiles/data_structure.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Windows/CLionProjects/data-structure/main.cpp -o CMakeFiles/data_structure.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp -o CMakeFiles/data_structure.dir/main.cpp.s
 
 CMakeFiles/data_structure.dir/maxheap.cpp.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/maxheap.cpp.o: ../maxheap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data_structure.dir/maxheap.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/maxheap.cpp.o -c /cygdrive/c/Users/Windows/CLionProjects/data-structure/maxheap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data_structure.dir/maxheap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/maxheap.cpp.o -c /Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp
 
 CMakeFiles/data_structure.dir/maxheap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/maxheap.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Windows/CLionProjects/data-structure/maxheap.cpp > CMakeFiles/data_structure.dir/maxheap.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp > CMakeFiles/data_structure.dir/maxheap.cpp.i
 
 CMakeFiles/data_structure.dir/maxheap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/maxheap.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Windows/CLionProjects/data-structure/maxheap.cpp -o CMakeFiles/data_structure.dir/maxheap.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp -o CMakeFiles/data_structure.dir/maxheap.cpp.s
 
 CMakeFiles/data_structure.dir/minheap.cpp.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/minheap.cpp.o: ../minheap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/data_structure.dir/minheap.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/minheap.cpp.o -c /cygdrive/c/Users/Windows/CLionProjects/data-structure/minheap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/data_structure.dir/minheap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/minheap.cpp.o -c /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp
 
 CMakeFiles/data_structure.dir/minheap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/minheap.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Windows/CLionProjects/data-structure/minheap.cpp > CMakeFiles/data_structure.dir/minheap.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp > CMakeFiles/data_structure.dir/minheap.cpp.i
 
 CMakeFiles/data_structure.dir/minheap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/minheap.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Windows/CLionProjects/data-structure/minheap.cpp -o CMakeFiles/data_structure.dir/minheap.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp -o CMakeFiles/data_structure.dir/minheap.cpp.s
 
 CMakeFiles/data_structure.dir/avltree.cpp.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/avltree.cpp.o: ../avltree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/data_structure.dir/avltree.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/avltree.cpp.o -c /cygdrive/c/Users/Windows/CLionProjects/data-structure/avltree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/data_structure.dir/avltree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/avltree.cpp.o -c /Users/root1/Documents/GitHub/data-structure/data-structure/avltree.cpp
 
 CMakeFiles/data_structure.dir/avltree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/avltree.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Windows/CLionProjects/data-structure/avltree.cpp > CMakeFiles/data_structure.dir/avltree.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/root1/Documents/GitHub/data-structure/data-structure/avltree.cpp > CMakeFiles/data_structure.dir/avltree.cpp.i
 
 CMakeFiles/data_structure.dir/avltree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/avltree.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Windows/CLionProjects/data-structure/avltree.cpp -o CMakeFiles/data_structure.dir/avltree.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/root1/Documents/GitHub/data-structure/data-structure/avltree.cpp -o CMakeFiles/data_structure.dir/avltree.cpp.s
 
 CMakeFiles/data_structure.dir/hashtable.cpp.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/hashtable.cpp.o: ../hashtable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/data_structure.dir/hashtable.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/hashtable.cpp.o -c /cygdrive/c/Users/Windows/CLionProjects/data-structure/hashtable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/data_structure.dir/hashtable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/hashtable.cpp.o -c /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp
 
 CMakeFiles/data_structure.dir/hashtable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/hashtable.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Windows/CLionProjects/data-structure/hashtable.cpp > CMakeFiles/data_structure.dir/hashtable.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp > CMakeFiles/data_structure.dir/hashtable.cpp.i
 
 CMakeFiles/data_structure.dir/hashtable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/hashtable.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Windows/CLionProjects/data-structure/hashtable.cpp -o CMakeFiles/data_structure.dir/hashtable.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp -o CMakeFiles/data_structure.dir/hashtable.cpp.s
 
 CMakeFiles/data_structure.dir/graph.cpp.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/graph.cpp.o: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/data_structure.dir/graph.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/graph.cpp.o -c /cygdrive/c/Users/Windows/CLionProjects/data-structure/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/data_structure.dir/graph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/graph.cpp.o -c /Users/root1/Documents/GitHub/data-structure/data-structure/graph.cpp
 
 CMakeFiles/data_structure.dir/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/graph.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Windows/CLionProjects/data-structure/graph.cpp > CMakeFiles/data_structure.dir/graph.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/root1/Documents/GitHub/data-structure/data-structure/graph.cpp > CMakeFiles/data_structure.dir/graph.cpp.i
 
 CMakeFiles/data_structure.dir/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/graph.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Windows/CLionProjects/data-structure/graph.cpp -o CMakeFiles/data_structure.dir/graph.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/root1/Documents/GitHub/data-structure/data-structure/graph.cpp -o CMakeFiles/data_structure.dir/graph.cpp.s
 
 # Object files for target data_structure
 data_structure_OBJECTS = \
@@ -147,19 +147,19 @@ data_structure_OBJECTS = \
 # External object files for target data_structure
 data_structure_EXTERNAL_OBJECTS =
 
-data_structure.exe: CMakeFiles/data_structure.dir/main.cpp.o
-data_structure.exe: CMakeFiles/data_structure.dir/maxheap.cpp.o
-data_structure.exe: CMakeFiles/data_structure.dir/minheap.cpp.o
-data_structure.exe: CMakeFiles/data_structure.dir/avltree.cpp.o
-data_structure.exe: CMakeFiles/data_structure.dir/hashtable.cpp.o
-data_structure.exe: CMakeFiles/data_structure.dir/graph.cpp.o
-data_structure.exe: CMakeFiles/data_structure.dir/build.make
-data_structure.exe: CMakeFiles/data_structure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable data_structure.exe"
+data_structure: CMakeFiles/data_structure.dir/main.cpp.o
+data_structure: CMakeFiles/data_structure.dir/maxheap.cpp.o
+data_structure: CMakeFiles/data_structure.dir/minheap.cpp.o
+data_structure: CMakeFiles/data_structure.dir/avltree.cpp.o
+data_structure: CMakeFiles/data_structure.dir/hashtable.cpp.o
+data_structure: CMakeFiles/data_structure.dir/graph.cpp.o
+data_structure: CMakeFiles/data_structure.dir/build.make
+data_structure: CMakeFiles/data_structure.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable data_structure"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/data_structure.dir/build: data_structure.exe
+CMakeFiles/data_structure.dir/build: data_structure
 
 .PHONY : CMakeFiles/data_structure.dir/build
 
@@ -168,6 +168,6 @@ CMakeFiles/data_structure.dir/clean:
 .PHONY : CMakeFiles/data_structure.dir/clean
 
 CMakeFiles/data_structure.dir/depend:
-	cd /cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Windows/CLionProjects/data-structure /cygdrive/c/Users/Windows/CLionProjects/data-structure /cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug /cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug /cygdrive/c/Users/Windows/CLionProjects/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/root1/Documents/GitHub/data-structure/data-structure /Users/root1/Documents/GitHub/data-structure/data-structure /Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug /Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug /Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/data_structure.dir/depend
 

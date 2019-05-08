@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Windows/CLionProjects/data-structure/main.cpp
+/Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp
 iostream
 -
 fstream
 -
+string
+-
+cstring
+-
+algorithm
+-
+minheap.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp
+minheap.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
 

@@ -1,0 +1,1 @@
+BUILD MINHEAP input1.txt
