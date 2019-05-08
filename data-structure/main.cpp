@@ -28,7 +28,7 @@ int main(int argc,char* argv[]) {
            ifstream in;
            in.open(filename);
            while (getline(in,line)){
-               minheap::insert(stoi(line));
+                minheap::insert(stoi(line));
            }
            in.close();
         }else if (line.find("BUILD MAXHEAP")==0){
