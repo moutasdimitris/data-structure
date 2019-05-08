@@ -6,7 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/hashtable.cpp.o"
   "CMakeFiles/data_structure.dir/graph.cpp.o"
   "data_structure.pdb"
-  "data_structure"
+  "data_structure.exe"
+  "libdata_structure.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

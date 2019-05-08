@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp
+/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/main.cpp
 iostream
 -
 fstream
@@ -18,11 +18,11 @@ cstring
 algorithm
 -
 minheap.h
-/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/minheap.h
 
-/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp
+/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/minheap.cpp
 minheap.h
-/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/minheap.h
 
-/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/minheap.h
 

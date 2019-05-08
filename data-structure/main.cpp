@@ -20,7 +20,7 @@ int main(int argc,char* argv[]) {
     ifstream input;
     input.open(argv[1]);
     string line;
-    int number;
+    int number,ptr=0;
     while(getline(input,line)){
         if (line.find("BUILD MINHEAP")==0){
            filename=line.substr(13);
@@ -28,7 +28,13 @@ int main(int argc,char* argv[]) {
            ifstream in;
            in.open(filename);
            while (getline(in,line)){
-               minheap::insert(stoi(line));
+               if (ptr==0){
+                   string d=line;
+                //   minheap(stoi(d));
+                   ptr++;
+               }
+              // minheap::insert(stoi(line));
+           cout<<line<<endl;
            }
            in.close();
         }else if (line.find("BUILD MAXHEAP")==0){
@@ -39,8 +45,8 @@ int main(int argc,char* argv[]) {
         }else if (line.find("BUILD GRAPH")==0){
 
         }else if (line.find("GETSIZE MINHEAP")==0){
-            int min=minheap::getSize();
-            output<<"Size of MinHeap is "<<min<<endl;
+           // int min=minheap::getSize();
+            //output<<"Size of MinHeap is "<<min<<endl;
         }else if (line.find("GETSIZE MAXHEAP")==0){
 
         }else if (line.find("GETSIZE AVLTREE")==0){
@@ -50,8 +56,8 @@ int main(int argc,char* argv[]) {
         }else if (line.find("GETSIZE HASHTABLE")==0){
 
         }else if (line.find("FINDMIN MINHEAP")==0){
-            int s=minheap::min();
-            output<<"Min for MinHeap is "<<s<<endl;
+          //  int s=minheap::min();
+           // output<<"Min for MinHeap is "<<s<<endl;
         }else if (line.find("FINDMIN MAXHEAP")==0){
 
         }else if (line.find("FINDMIN AVLTREE")==0){
@@ -69,8 +75,8 @@ int main(int argc,char* argv[]) {
         }else if (line.find("INSERT MAXHEAP")==0){
 
         }else if (line.find("INSERT MINHEAP")==0){
-            number=stoi(line.substr(13));
-            minheap::insert(number);
+           // number=stoi(line.substr(13));
+            //minheap::insert(number);
         }else if (line.find("INSERT AVLTREE")==0){
 
         }else if (line.find("INSERT HASHTABLE")==0){
@@ -78,8 +84,8 @@ int main(int argc,char* argv[]) {
         }else if (line.find("INSERT GRAPH")==0){
 
         }else if (line.find("DELETEMIN MINHEAP")==0){
-            minheap::deleteMin();
-            output<<"Delete Min from MinHeap"<<endl;
+            //minheap::deleteMin();
+            //output<<"Delete Min from MinHeap"<<endl;
         }else if (line.find("DELETEMAX MAXHEAP")==0){
 
         }else if (line.find("DELETE AVLTREE")==0){

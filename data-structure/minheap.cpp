@@ -4,14 +4,14 @@
 
 #include "minheap.h"
 minheap::minheap(int size) {
-    size=0;
+    sizes=0;
     maxSize=size;
     s = new int [size];
 
 }
 void minheap::insert(int key) {
-    int n=size-1;
-    if (size<maxSize){
+    int n=sizes-1;
+    if (sizes<maxSize){
         s[n]=key;
     }
     while (n!=0 && s[parent(key)]>s[n]){
@@ -22,6 +22,3 @@ void minheap::insert(int key) {
     }
 }
 
-void minheap::deleteMin() {
-
-}

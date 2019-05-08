@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/root1/Documents/GitHub/data-structure/data-structure/avltree.cpp" "/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/avltree.cpp.o"
-  "/Users/root1/Documents/GitHub/data-structure/data-structure/graph.cpp" "/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/graph.cpp.o"
-  "/Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp" "/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/hashtable.cpp.o"
-  "/Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp" "/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/main.cpp.o"
-  "/Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp" "/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/maxheap.cpp.o"
-  "/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp" "/Users/root1/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/minheap.cpp.o"
+  "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/avltree.cpp" "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/avltree.cpp.o"
+  "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/graph.cpp" "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/graph.cpp.o"
+  "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/hashtable.cpp" "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/hashtable.cpp.o"
+  "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/main.cpp" "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/main.cpp.o"
+  "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/maxheap.cpp" "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/maxheap.cpp.o"
+  "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/minheap.cpp" "/cygdrive/c/Users/Windows/Documents/GitHub/data-structure/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/minheap.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
