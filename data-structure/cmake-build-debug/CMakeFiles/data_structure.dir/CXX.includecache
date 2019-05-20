@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp
+hashtable.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.h
+iostream
+-
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.h
+list
+-
+
 /Users/root1/Documents/GitHub/data-structure/data-structure/main.cpp
 iostream
 -
@@ -19,10 +29,34 @@ algorithm
 -
 minheap.h
 /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+minheap.cpp
+/Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp
+maxheap.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.h
+maxheap.cpp
+/Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp
+hashtable.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.h
+hashtable.cpp
+/Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp
+maxheap.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.h
+iostream
+-
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.h
+vector
+-
 
 /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.cpp
 minheap.h
 /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+iostream
+-
 
 /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
+vector
+-
 
