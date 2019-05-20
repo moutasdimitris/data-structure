@@ -27,17 +27,13 @@ int main(int argc,char* argv[]) {
             output<<"|------------------------|"<<endl;
             filename=line.substr(14);
             input1.open(filename);
-            if (!input1){
-                output<<"Fail to open file"<<endl;
-            }else{
               while(getline(input1,line)){
                   int j=stoi(line);
                   a.insert(j);
                }
-           }
-           // for (int i=0;i< a.getSize();i++){
-           // output<<"Index "<<i<<" - "<<a.print(i)<<endl;}
-            output<<"Build MinHeap -> OK\n";
+            for (int i=0;i< a.getSize();i++){
+            output<<"Index "<<i<<" - "<<a.print(i)<<endl;}
+            output<<"Build MinHeap -> OK"<<endl;
             output<<"|------------------------|"<<endl;
             input1.close();
         }else if (line.find("BUILD MAXHEAP")==0){
@@ -61,12 +57,12 @@ int main(int argc,char* argv[]) {
             input1.open(filename);
                 while(getline(input1,line)){
                     int p=stoi(line);
-                    x[q]=p;
+                   // x[q]=p;
                     q++;
                 }
 
               for (int i =0;i<line_cntr;i++){
-                  hash.insert(x[i]);
+                  //hash.insert(x[i]);
               }
                 //hash.print();
             output<<"Build HashTable -> OK"<<endl;
