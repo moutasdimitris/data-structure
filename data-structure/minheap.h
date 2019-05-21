@@ -9,6 +9,7 @@
 class minheap {
 public:
     minheap();
+    ~minheap();
     int find_min();
     void insert(int key);
     void deleteMin();
