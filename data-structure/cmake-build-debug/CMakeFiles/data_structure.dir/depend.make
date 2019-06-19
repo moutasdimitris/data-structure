@@ -10,6 +10,10 @@ CMakeFiles/data_structure.dir/graph.cpp.o: ../graph.h
 CMakeFiles/data_structure.dir/hashtable.cpp.o: ../hashtable.cpp
 CMakeFiles/data_structure.dir/hashtable.cpp.o: ../hashtable.h
 
+CMakeFiles/data_structure.dir/main.cpp.o: ../avltree.cpp
+CMakeFiles/data_structure.dir/main.cpp.o: ../avltree.h
+CMakeFiles/data_structure.dir/main.cpp.o: ../graph.cpp
+CMakeFiles/data_structure.dir/main.cpp.o: ../graph.h
 CMakeFiles/data_structure.dir/main.cpp.o: ../hashtable.cpp
 CMakeFiles/data_structure.dir/main.cpp.o: ../hashtable.h
 CMakeFiles/data_structure.dir/main.cpp.o: ../main.cpp

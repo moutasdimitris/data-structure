@@ -4,23 +4,20 @@
 
 #ifndef DATA_STRUCTURE_HASHTABLE_H
 #define DATA_STRUCTURE_HASHTABLE_H
-
 #include <list>
+using namespace std;
 
 class hashtable {
-    std::list<int> *s;
 public:
+     list <int> *l;
      hashtable(int size);
-     int size;
      int getSize();
      bool search(int key);
      void insert (int key);
-     void remove(int key);
      int hash_func(int key);
-
-int value;
-
-
+     void print();
+private:
+     int cap;
 };
 
 

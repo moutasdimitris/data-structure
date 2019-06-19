@@ -4,42 +4,49 @@
 
 #include "hashtable.h"
 #include <iostream>
+#include <fstream>
+
 using namespace std;
 
 
 
 hashtable::hashtable(int size) {
-   s=new list<int>[size];
+    this->cap=size;
+   l=new list <int>[size];
 }
+
 int hashtable::hash_func(int key) {
-    return (key%size);
+    return key%cap;
 }
 
 int hashtable::getSize() {
-    return size;
+    return cap;
 }
 
 bool hashtable::search(int key) {
-    return hash_func(key);
+    int k=hash_func(key);
+    bool s=false;
+    list<int>::iterator i;
+    for (i = l[k].begin();i != l[k].end(); i++) {
+         if (*i == key)
+             s=true;
+    }
+    return s;
 }
 
  void hashtable::insert(int key) {
-     value=hash_func(key);
-    s[value].push_back(key);
+     int value=hash_func(key);
+     l[value].push_back(key);
 }
 
-void hashtable::remove(int key) {
-     value=hash_func(key);
-     list <int> ::iterator it;
-     for ( it=s[value].begin();it!=s[value].end();it++){
-         if (*it==key)
-             break;
-     }
-       if (it!=s[value].end()){
-           s[value].erase(it);
-       }
-
-
+void hashtable::print() {
+   ofstream out;
+   out.open("hash.txt");
+    for (int i = 0; i < cap; i++) {
+        for (int x  : l[i])
+            out <<"->"<< x;
+        out<<endl;
+    }
+   out.close();
 }
-
 

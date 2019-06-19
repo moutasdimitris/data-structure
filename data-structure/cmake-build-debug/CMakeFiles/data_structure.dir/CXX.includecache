@@ -6,10 +6,34 @@
 
 #IncludeRegexTransform: 
 
+/Users/root1/Documents/GitHub/data-structure/data-structure/avltree.cpp
+avltree.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/avltree.h
+iostream
+-
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/avltree.h
+cstddef
+-
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/graph.cpp
+iostream
+-
+graph.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/graph.h
+fstream
+-
+
+/Users/root1/Documents/GitHub/data-structure/data-structure/graph.h
+vector
+-
+
 /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp
 hashtable.h
 /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.h
 iostream
+-
+fstream
 -
 
 /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.h
@@ -23,9 +47,13 @@ fstream
 -
 string
 -
+stdio.h
+-
 cstring
 -
 algorithm
+-
+sstream
 -
 minheap.h
 /Users/root1/Documents/GitHub/data-structure/data-structure/minheap.h
@@ -39,6 +67,14 @@ hashtable.h
 /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.h
 hashtable.cpp
 /Users/root1/Documents/GitHub/data-structure/data-structure/hashtable.cpp
+avltree.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/avltree.h
+avltree.cpp
+/Users/root1/Documents/GitHub/data-structure/data-structure/avltree.cpp
+graph.h
+/Users/root1/Documents/GitHub/data-structure/data-structure/graph.h
+graph.cpp
+/Users/root1/Documents/GitHub/data-structure/data-structure/graph.cpp
 
 /Users/root1/Documents/GitHub/data-structure/data-structure/maxheap.cpp
 maxheap.h
