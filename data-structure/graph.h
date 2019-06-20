@@ -15,7 +15,7 @@ public:
     void print();
     bool exists(int num1,int num2);
     int getSize();
-    vector<pair<int,int>> Graph;
+    vector<pair<int,int> > Graph;
 };
 
 

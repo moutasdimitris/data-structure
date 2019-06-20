@@ -6,15 +6,11 @@
 #include <algorithm>
 #include <sstream>
 #include "minheap.h"
-#include "minheap.cpp"
 #include "maxheap.h"
-#include "maxheap.cpp"
 #include "hashtable.h"
-#include "hashtable.cpp"
 #include "avltree.h"
-#include "avltree.cpp"
 #include "graph.h"
-#include "graph.cpp"
+
 
 
 int test(const string& file){
