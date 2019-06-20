@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test.db">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.15">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="DVD"/>
+    <table id="7" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="8" parent="2" name="–≈ΥΝ‘«”"/>
+    <table id="9" parent="2" name="‘Ν…Ά…Ν"/>
+    <table id="10" parent="2" name="‘”"/>
+    <table id="11" parent="2" name="”’Ά‘≈Υ≈”‘«”"/>
+    <table id="12" parent="2" name="≈Άœ… …Ν”«"/>
+    <column id="13" parent="6" name="ID">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="6" name="ID‘αιμΏαρ">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="6" name="‘ΐπορ">
+      <Position>3</Position>
+      <DataType>varchar(4)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <column id="16" parent="6" name="–οσϋτγτα">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="17" parent="6" name="‘ιλό">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <key id="18" parent="6">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="19" parent="6">
+      <ColNames>ID‘αιμΏαρ</ColNames>
+      <RefTableName>‘Ν…Ά…Ν</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="20" parent="7" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="21" parent="7" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="22" parent="7" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="23" parent="7" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="24" parent="7" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="25" parent="8" name="ID">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="8" name="≈πΏηετο">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>NOCASE</Collation>
+    </column>
+    <column id="27" parent="8" name="‘γκίωυμο">
+      <Position>3</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <column id="28" parent="8" name="œδϋρ">
+      <Position>4</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <column id="29" parent="8" name="Νώιηλϋρ">
+      <Position>5</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <key id="30" parent="8">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="9" name="ID">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="9" name="‘Ώτκορ">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <column id="33" parent="9" name="Ήώομιή">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <key id="34" parent="9">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="35" parent="10" name="ID‘αιμΏαρ">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="10" name="ID”θμτεκεστό">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="10" name="―ϋκορ">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <index id="38" parent="10" name="sqlite_autoindex_‘”_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID‘αιμΏαρ
+ID”θμτεκεστό</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="10">
+      <ColNames>ID‘αιμΏαρ
+ID”θμτεκεστό</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_‘”_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="40" parent="10">
+      <ColNames>ID‘αιμΏαρ</ColNames>
+      <RefTableName>‘Ν…Ά…Ν</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="41" parent="10">
+      <ColNames>ID”θμτεκεστό</ColNames>
+      <RefTableName>”’Ά‘≈Υ≈”‘«”</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="42" parent="11" name="ID">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="11" name="Φμολα">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <Collation>NOCASE</Collation>
+    </column>
+    <key id="44" parent="11">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="45" parent="12" name="ID–εκήτγ">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="12" name="IDdvd">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="12" name="Νπϋ">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="12" name="Ηυρ">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="49" parent="12" name="sqlite_autoindex_≈Άœ… …Ν”«_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID–εκήτγ
+IDdvd</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="12">
+      <ColNames>ID–εκήτγ
+IDdvd</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_≈Άœ… …Ν”«_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="51" parent="12">
+      <ColNames>ID–εκήτγ</ColNames>
+      <RefTableName>–≈ΥΝ‘«”</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="52" parent="12">
+      <ColNames>IDdvd</ColNames>
+      <RefTableName>DVD</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
